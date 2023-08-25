@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #c9c5c3;
+  border-bottom: 3px solid grey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.carousel {
+  width: 1300px;
+}
+.district {
+  font-size: 18px;
+}
+.carousel-container__img {
+  height: 600px;
+}
+
+.text-indent {
+  text-indent: 4em;
+  text-align: justify;
+}
+
+.text-container1 {
+  width: 622px;
+}
+
+.ch_img {
+  width: 600px;
+  height: 340px;
+}
+
+.row {
+  --bs-gutter-x: -1.5rem;
+}
+@media only screen and (max-width: 600px) {
+  .district ul li .text-decoration-none {
+    font-size: 14px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 400px) {
+  .district ul li .text-decoration-none {
+    font-size: 10px;
   }
 }
