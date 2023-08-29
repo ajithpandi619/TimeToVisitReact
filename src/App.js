@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import PlaceToVisit from "./components/places/PlaceToVisit";
 import Home from "./components/Home";
+import TimeToVisit from "./components/place1/TimeToVisit";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/place-to-visit" element={<PlaceToVisit />} />
+        <Route path="/Place" element={<PlaceToVisit />} />
+        <Route path="/Time" element={<TimeToVisit />} />
       </Routes>
     </BrowserRouter>
   );
