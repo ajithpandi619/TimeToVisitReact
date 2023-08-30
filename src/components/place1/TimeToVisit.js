@@ -17,6 +17,10 @@ import HogenakkalVisit from "./HogenakkalVisit";
 function TimeToVisit() {
   return (
     <Container className="mt-5  ">
+      <div className="ms-5 ">
+        <h2>TAMILNADU TOURISM</h2>
+        <h3>Best Time To Visit</h3>
+      </div>
       <Row className="ms-5">
         <Col>
           <Image
